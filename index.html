@@ -13,7 +13,7 @@
   <div class="container">
     <div class="sidebar">
       <div class="logo"><img src="images/odin-lined.png"><span>ODIN</span></div>
-      <div class="credit">Photo by <a href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></div>
+      <div class="credit">Photo by <a href="https://unsplash.com/@aarsoph?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kristijan Arsov</a> on <a href="https://unsplash.com/photos/closeup-photo-of-brown-wooden-statue-tcw3nwoAgvs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></div>
     </div>
     <div class="sign-up-form">
       <div class="form-header">
@@ -25,11 +25,42 @@
         </div>
       </div>
       <div class="form-details">
-        Form goes here
+        <p>Let's do this!</p>
+        <form method="post" id="sign-up-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstname">FIRST NAME</label>
+              <input type="text" id="firstname" name="firstname" placeholder="First Name" required>
+            </div>
+            <div class="form-group">
+              <label for="lastname">LAST NAME</label>
+              <input type="text" id="lastname" name="lastname" placeholder="Last Name" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">EMAIL</label>
+              <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+              <label for="phonenumber">PHONE NUMBER</label>
+              <input type="text" id="phonenumber" name="phonenumber" placeholder="Phone Number" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="password1">PASSWORD</label>
+              <input type="password" id="password1" name="password1" placeholder="Password" required>
+            </div>
+            <div class="form-group">
+              <label for="password2">CONFIRM PASSWORD</label>
+              <input type="password" id="password2" name="password2" placeholder="Password" required>
+            </div>
+          </div>
+        </form>
       </div>
       <div class="form-footer">
-        <button type="submit">Create Account</button>
-        <p>&nbsp;</p>
+        <p><button type="submit" form="sign-up-form">Create Account</button></p>
         <p>Already have an account? <a href="#">Log in</a></p>
       </div>
     </div>
