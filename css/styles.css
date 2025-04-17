@@ -96,7 +96,7 @@ p {
 .form-header {
   flex: 1;
   background-color: #F9FAFB;
-  padding: 20px;
+  padding: 20px 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -109,11 +109,32 @@ p {
 
 .form-details {
   flex: 1;
-  padding: 20px;
+  padding: 20px 50px;
 }
 
 .form-footer {
   flex: 1;
   background-color: #F9FAFB;
-  padding: 20px;
+  padding: 30px 50px;
+}
+
+.form-footer a {
+  color: #596D48;
+  text-decoration: none;
+}
+
+button {
+  padding: 0.75em 1.5em;
+  background-color: #596D48;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 1.15rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background-color: #3E4C32;
 }
